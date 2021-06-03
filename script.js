@@ -22,7 +22,7 @@ function win(winner) {
     } else if (winner === 'player2') {
         header.innerText = "🎊Player 2 Wins🎊"
     } else if (winner === "tie") {
-        header.innerText = "🪔Tie🪔"
+        header.innerText = "🙌Tie🙌"
     }
 }
 
