@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Limelight', cursive;
+}
+
+body {
+    color: #810000;
+    font-weight: bold;
 }
 
 .hidden {
@@ -13,15 +20,13 @@
     justify-content: center;
     align-items: center;
     height: 5rem;
-    background: rgb(2, 0, 27);
-    background: radial-gradient(circle, rgba(2, 0, 27, 1) 19%, rgba(94, 10, 21, 1) 100%);
+    background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%);
     border: 3px solid #2b2e4a;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
-    color: white;
     font-size: 1.5rem;
 }
 
@@ -34,8 +39,7 @@
 .player1,
 .player2 {
     height: 50vh;
-    background-color: #810000;
-    color: white;
+    background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +53,7 @@
 }
 
 .player2 {
-    background-color: #0a043c;
+    background-image: linear-gradient( 135deg, #FFF886 10%, #F072B6 100%);
 }
 
 .play {
@@ -62,14 +66,13 @@
 .button {
     width: 7rem;
     height: 3rem;
-    background: rgb(2, 0, 27);
-    background: radial-gradient(circle, rgba(2, 0, 27, 1) 19%, rgba(94, 10, 21, 1) 100%);
+    background-image: linear-gradient( 135deg, #FFA8A8 10%, #FCFF00 100%);
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     font-size: 1rem;
+    color: #810000;
     font-weight: bold;
-    color: white;
 }
